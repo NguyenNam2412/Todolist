@@ -1,0 +1,253 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+}
+
+.taskTop {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFDFDF
+}
+
+.taskName {
+  margin-left: 20px;
+}
+
+.taskBtn {
+  margin-right: 10px;
+}
+
+.btnLogout {
+  width: 100px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.btnLogout:hover {
+  background-color: #DB3345;
+  opacity: 0.8
+}
+
+.taskBot {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textInput {
+  width: 90%;
+  height: 90px;
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #DFDFDF
+}
+
+.input {
+  width: 90%;
+  height: 21px;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: #DFDFDF;
+}
+
+.addbtn {
+  width: 92%;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  background-color: #2AA3B7;
+  color: #fff;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addbtn:hover {
+  opacity: 0.8
+}
+
+.nav {
+  width: 80%;
+}
+
+.count {
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.countnumb {
+
+}
+
+.links {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkbtn {
+  width: 25%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2AA3B7;
+  color: #fff;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.linkbtn:hover {
+  opacity: 0.8;
+  width: 35%;
+  height: 35px;
+}
+
+.linkbtn:focus {
+  opacity: 0.8;
+}
+
+.render {
+  width: 90%;
+  display: flex;
+}
+
+.list {
+  width: 100%;
+  margin-top: 15px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.listitem {
+  width: 97%;
+  height: 35px;
+  margin: 5px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+}
+
+.itemname {
+  width: 80%;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.checkbox:not(:checked) {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  
+}
+
+.updatebtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #FBC206;
+  border: none;
+  cursor: pointer;
+}
+
+.deletebtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #DB3345;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  width: 120%;
+  height: 120%;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #DB3345;
+}
+
+.bottom {
+  width: 85%;
+  height: 50px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnbottom {
+  width: 30%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DB3345;
+  color: #fff;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btnLogout:hover {
+  opacity: 0.5;
+}
